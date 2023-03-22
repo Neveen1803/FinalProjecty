@@ -1,0 +1,146 @@
+@charset "UTF-8";
+html, body {
+	margin:0;
+	padding:0;
+    height: 100%;
+    width: 100%;
+  }
+  #Login-container{
+  height:700px;
+  width:450px;
+  border:2px solid;
+  border-radius: 10px;
+  background-color: white;
+}
+#login{
+  height: 50px;
+  width:100%;
+/*   border:2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  
+}
+#whole-container{
+  height:100%;
+  width:100%;
+  border:2px solid;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+   background: rgb(78,147,214);
+background: linear-gradient(123deg, rgba(78,147,214,1) 0%, rgba(137,71,171,1) 100%);
+}
+#UsernameDiv{
+ height: 50px;
+  width:100%;
+/*   border:2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  
+}
+
+
+
+
+#logPage{
+  
+      height:300px;
+      width:300px;
+      border:2px solid;
+          margin:auto;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+   
+      
+  }
+  #userName{
+      height:50px;
+      width:350px;
+      border-bottom:2px solid;
+      margin-top: 30px;
+     
+  }
+   input[type="text"] {
+        border-style: none;
+      }
+      input[type="password"] {
+        border-style: none;
+      }
+       input[type="number"] {
+        border-style: none;
+      }
+      #PhoDiv{
+       height: 50px;
+  width:100%;
+/*   border:2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 30px;
+      }
+      #PhoneNumber{
+             height:50px;
+      width:350px;
+      border-bottom:2px solid;
+      margin-top: 30px;
+
+      }
+      #passwordDiv{
+      height: 50px;
+  width:100%;
+/*   border:2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 30px;
+      }
+  #password{
+       height:50px;
+      width:350px;
+      border-bottom:2px solid;
+      margin-top: 30px;
+     
+     
+  }
+  #ConfirmPassword{
+  height:50px;
+      width:350px;
+      border-bottom:2px solid;
+      margin-top: 30px;
+  }
+  #logButton{
+   height: 50px;
+  width:100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 75px;
+  }
+  #submit{
+       height:50px;
+      width:350px;
+      border:2px solid;
+    background: rgb(78,147,214);
+background: linear-gradient(123deg, rgba(78,147,214,1) 0%, rgba(137,71,171,1) 100%);
+     color:white;
+       
+  }
+  #SignUpDiv{
+   height: 50px;
+  width:100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px; 
+  margin-top: 75px;
+  }

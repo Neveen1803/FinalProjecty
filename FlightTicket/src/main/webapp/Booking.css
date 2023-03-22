@@ -1,0 +1,476 @@
+@charset "UTF-8";
+html,body{
+    height: 100%;
+    width:100%;
+}
+#whole-container{
+
+	width:100%;
+
+
+	}
+#top{
+	height:70px;
+	width:100%;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	background-color: #183c93;
+	color:white;
+}
+#top-shrink{
+	height:70px;
+	width:65%;
+	/* border:2px solid #183c93; */
+	display: flex;
+	justify-content: space-between;
+}
+#head{
+	height:68px;
+	width: 300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+#logout{
+	height:68px;
+	width:300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	
+}
+.Middle{
+    height:80px;
+    width: 100%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background: rgb(245, 245, 245);
+}
+.Indicator{
+    
+    width:65%;
+    /* border: 2px solid; */
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+hr{
+    width:330px;
+}
+.TripInfo{
+    /* height:150px; */
+    width:100%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+.CityName{
+    height:96px;
+    width:65%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.tripDetails{
+
+height:50px;
+width:40%;
+border: 2px solid;
+display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: first baseline;
+}
+.InnertripInfo{
+    width:65%;
+    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.InnerTripSelectYourSeet{
+	width:100%;
+	 font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.SelectYourSeat{
+    /* height:175px; */
+    border: 2px solid;
+}
+.From-To{
+    height:40px;
+}
+.Time-Flight{
+    height:40px;
+
+}
+.SeatStatus-Price{
+    height:40px;
+
+}
+.SeeSeat{
+    height:40px;
+}
+.DropDown{
+    width:100%;
+    border:2px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+.seatInfo{
+
+    border:2px solid;
+}
+.TravalerandSeatSelect{
+    height:96px;
+    width:398px;
+    border:2px solid;
+}
+.TravalerandSeatSelectchild1{
+    height:44px;
+    width:398px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.TravalerandSeatSelectchild2{
+    height:44px;
+    width:398px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.availableSeat{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.availableSeatchild1{
+    height:44px;
+    width:50px;
+    /* border:2px solid; */
+    background-color: #2e6de1;
+
+}
+.availableSeatchild2{
+    height:44px;
+    width:310px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.unavailableSeat{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.unavailableSeatchild1{
+    height:44px;
+    width:50px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: red;
+    color: white;
+}
+.unavailableSeatchild2{
+    height:44px;
+    width:310px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+   
+}
+.selectedSeat{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.selectedSeatchild1{
+    height:44px;
+    width:50px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: green;
+    color: white;
+}
+.selectedSeatchild2{
+    height:44px;
+    width:310px;
+    /* border:2px solid; */
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.DropFlightSeat{
+  
+  
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+border: 2px solid;
+
+}
+.Box{
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.TotalCredentials{
+    height:400px;
+    width:400px;
+    border:2px solid;
+    align-self: flex-end;
+}
+.Tickets{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+}
+.TicketsChild1{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TicketsChild2{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FlightFare{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+
+}
+.FlightFare1{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FlightFare2{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Total{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+
+}
+.Total1{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Total2{
+    height:60px;
+    width:196px;
+    /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next{
+    height:96px;
+    width:398px;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nextButton{
+    height:80px;
+    width:50%;
+    border:2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: #2e6de1;
+        color:white;
+}
+.WhoFlying{
+    width:65%;
+    /* height:100px; */
+    /* border:2px solid; */
+}
+.WhoFlyingBox{
+    height:400px;
+    width:600px;
+    border: 2px solid;
+}
+.Travaler{
+    height:96px;
+    width:598px;
+    border:2px solid;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.TrvalerNumber{
+  
+    justify-content: flex-start;
+}
+.Names{
+    height:96px;
+    width:598px;
+    /* border:2px solid; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NameBox{
+    height:100%;
+    width: 50%;
+    /* border: 2px solid; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.FirstName{
+    height: 40px;
+    width: 210px;
+}
+.LastName{
+    height: 40px;
+    width: 210px;
+}
+.GenderDOB{
+    height:96px;
+    width:598px;
+    /* border:2px solid; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.DOBBox{
+    height:100%;
+    width: 50%;
+    /* border: 2px solid; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.TravelDocumentDetails{
+    height:96px;
+    width:598px;
+    /* border:2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+.DateOfBirth{
+	height: 40px;
+    width: 210px;
+}
+.Gender{
+    height: 40px;
+    width: 210px;
+}
+.MobileNumber{
+	height: 40px;
+    width: 210px;
+}
+.checkAndPay{
+	width:65%;
+	
+}
+.PayDiv{
+  height:300px;
+  width:400px;
+  border:2px solid;
+}
+.CardNumber{
+  height:96px;
+  width:400px;
+display: flex;
+}
+#CardNumber{
+  height:50px;
+  width:100%;
+}
+.ExpCSV{
+  height:96px;
+  width:400px;
+  display: flex;
+}
+#Csv{
+  height:50px;
+  width:47%;
+}
+#ExpDate{
+  height:50px;
+  width:48%;
+}
+.Pay{
+  height:48px;
+  width:200px;
+  border:2px solid;
+  float:right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color:#2e6de1;
+}

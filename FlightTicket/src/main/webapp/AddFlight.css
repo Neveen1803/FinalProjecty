@@ -1,0 +1,419 @@
+@charset "UTF-8";
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#whole-container{
+
+	width:100%;
+
+	}
+	::-webkit-scrollbar {
+  display: none;
+}
+#top{
+	height:70px;
+	width:100%;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	background-color: #183c93;
+	color:white;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#top-shrink{
+	height:70px;
+	width:65%;
+	/* border:2px solid #183c93; */
+	display: flex;
+	justify-content: space-between;
+}
+#head{
+	height:68px;
+	width: 300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+#logout{
+	height:68px;
+	width:300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	
+}
+#middle{
+	
+	width: 80%;
+	border: 2px solid #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+    float: right;
+
+}
+#marginLeft{
+    height:975px;
+    width:19%;
+    border: 2px solid #183c93;
+    background-color: #183c93;
+   
+}
+#middle-shrink{
+	
+	width: 70%;
+	/* border:2px solid; */
+
+	}
+    #mid-see{
+        width: 70%;
+        height: 979px;
+    	overflow: scroll;
+        /* height: 100px; */
+        /* border:2px solid; */
+
+    }
+#FlightInfo{
+    height:110px;
+    width:100%;
+    /* border: 2px soolid; */
+    font-size: 25px;
+   
+}
+#NameNumber{
+    height:108px;
+    width:20%;
+    border:2px solid;
+    float:left;
+    
+}
+#Name{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Number{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fromfTime{
+    height:108px;
+    width:20%;
+    border:2px solid;
+    float:left;
+}
+#from{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ftime{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#noOfSeat{
+    height:108px;
+    width:19%;
+    border:2px solid;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ToTtime{
+    height:108px;
+    width:19%;
+    border:2px solid;
+    float:left;
+}
+#To{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Ttime{
+    height:50px;
+    width:100%;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Priceinfo{
+    height:108px;
+    width:19%;
+    border:2px solid;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.searchForFlight{
+	height:100px;
+	width:250px;
+	border:2px solid;
+}
+
+
+
+
+.summa{
+	width:100%;
+	height:100px;
+	border:2px solid;
+	display:flex;
+	font-size: 25px;
+}
+
+.summa1{
+	width:256px;
+	height:98px;
+	border:2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		font-size: 25px;
+        background-color: #2e6de1;
+        color: white;
+}
+.summa1:hover{
+        background-color: #183c93;
+        border:2px solid white;
+
+    }
+
+.ChangerArea{
+	width:100%;
+	border:2px solid;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.InnerBox{
+	height:100px;
+	width:50%;
+	border:2px solid;
+}
+#Update{
+	height:100px;
+	width:250px;
+	border:2px solid;
+	align-self: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+        background-color: #2e6de1;
+        color: white;
+}
+
+#mid-update{
+		 width: 70%;
+       
+        border:2px solid;
+}
+#getFlightId{
+	height:70px;
+	width:270px;
+}
+    #total{
+        width:100%;
+        border:5px solid #ffb700;
+        font-size: 25px;
+    }
+    .Booking-Box{
+        height:70px;
+        width:100%;
+        /* border:2px solid; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .FlightId{
+        height:68px;
+        width:304px;
+    }
+    .flightname{
+     height:68px;
+        width:304px;
+    }
+    .departure{
+        height:68px;
+        width:304px;
+        /* border:2px solid; */
+    }
+    .arrival{
+            height:68px;
+        width:304px;
+        /* border:2px solid; */
+        
+    }
+    .DepTime{
+        height:68px;
+        width:304px;
+        /* border:2px solid; */
+    }
+    .ArrTime{
+        height:68px;
+        width:304px;
+        /* border:2px solid; */
+    }
+    .seats{
+        height:68px;
+        width:304px;
+    }
+    .Price{
+        height:68px;
+        width:304px;
+    }
+    .Box{
+        width: 100%;
+        border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #addSearch{
+        height:70px;
+        width:100%;
+        /* border:2px solid; */
+        display:flex;
+        align-items:center;
+        justify-content:flex-end;
+        
+    }
+  
+    #AddFlight{
+        height:50px;
+        width:225px;
+        /* border:2px solid; */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2e6de1;
+        color:white;
+    }
+    .tobba{
+        height:100px;
+        border:2px solid #183c93;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background-color: #2e6de1;
+        color: white;
+    }
+    .tobba:hover{
+        background-color: #183c93;
+        border:2px solid white;
+
+    }
+    .UpdateBox{
+        width: 100%;
+        height: 200px;
+        border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    .UpdateLableWithValueBox{
+   height: 68px;
+    width: 304px;
+    }
+    #UpdateBox{
+    font-size:25px;
+    }
+    
+#mid-book{
+  width:65%;
+  height: 979px;
+    overflow: scroll;
+  }
+#middleDiv1{
+  height:200px;
+  width:100%;
+  border:2px solid;
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
+#NameNumber1{
+  height:100%;
+  width:161px;
+  border:2px solid;
+}
+
+.Box1{
+  height:48%;
+  width:158px;
+  border:2px solid;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#Seat1{
+  height:99%;
+  width:157px;
+  border:2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+}
+.Box2{
+  height:31.3%;
+  width:163px;
+  border:2px solid;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+    

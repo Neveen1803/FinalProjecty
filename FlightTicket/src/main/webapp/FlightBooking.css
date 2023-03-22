@@ -1,0 +1,482 @@
+@charset "UTF-8";
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#whole-container{
+
+	width:100%;
+
+	}
+#top{
+	height:70px;
+	width:100%;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	background-color: #183c93;
+	color:white;
+}
+#top-shrink{
+	height:70px;
+	width:65%;
+	/* border:2px solid #183c93; */
+	display: flex;
+	justify-content: space-between;
+}
+#ProfileAndLogout{
+	display: flex;
+}
+#profile{
+	height:70px;
+	width:70px;
+	/* border:2px solid; */
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:25px;
+	color:white;
+}
+#profile:hover{
+	color:black;
+	}
+
+#head{
+	height:68px;
+	width: 300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+#logout{
+	height:68px;
+	width:300px;
+	border:2px solid #183c93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	
+}
+#middle{
+	
+	width: 100%;
+	border: 2px solid #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+}
+#middle-shrink{
+	
+	width: 65%;
+	box-shadow: 26px 25px 32px 2px #c5c2d2;
+    /* border: 2px solid; */
+    margin-top: 60px;
+
+	}
+	
+	
+	#tripmode{
+    height:80px;
+    width: 100%;
+     /* border: 2px solid;  */
+    font-size: 20px;
+    display:flex;
+    align-items:center;
+  
+  }
+  #trip{
+  height:78px;
+  width:400px;
+  /* border:2px solid; */
+   display:flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+	#Economy{
+    height:50px;
+    width:150px;
+    /* border:2px solid;  */
+    margin-left:50px;
+  }
+  #economy{
+    height:50px;
+    width:150px;
+    font-size: 20px;
+     /* border:2px solid;   */
+  }
+#counter{
+	 height:50px;
+    width:150px;
+      margin-left:50px;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #2e6de1;
+    color: white;
+    border-radius:20px;
+}
+  #total{
+	width:99.2%;
+	border:5px solid #ffb700;
+}
+.Booking-Box{
+	height:70px;
+	width:100%;
+	/* border:2px solid; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.departure{
+	height:68px;
+	width:33%;
+	font-size: 20px;
+	/* border:2px solid; */
+}
+.arrival{
+		height:68px;
+	width:33%;
+	font-size: 20px;
+	/* border:2px solid; */
+	
+}
+.DepDate{
+	height:68px;
+	width:33% ;
+	font-size: 20px;
+	/* border:2px solid; */
+}
+#ArrDate{
+	height:68px;
+	width:24%;
+	font-size: 20px;
+	/* border:2px solid; */
+}
+
+
+#addSearch{
+	height:70px;
+	width:100%;
+	/* border:2px solid; */
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+#addflight{
+	height:64px;
+	width:180px;
+	border:2px solid #f5f5f5;
+	background-color:#f5f5f5;
+	color:#2e6de1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#search{
+	height:50px;
+	width:225px;
+	/* border:2px solid; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2e6de1;
+	color:white;
+}
+.x{
+	position:absolute;
+	float:right;
+	margin-left:64%;
+	margin-top:-10px;
+	background-color:white;
+	border: 2px solid white;
+	height:18px;
+	width:18px;
+	border-radius: 50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+	
+#count{
+	height:450px;
+	width:500px;
+	border:2px solid;
+	
+	top:200px;
+	left:990px;
+ 	background-color: white;
+ position: absolute;
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 34px;
+ 	
+}
+	
+
+  .box{
+	height:140px;
+	width:470px;
+	/* border:2px solid; */
+	border-bottom:2px solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+   
+  }
+  .adult{
+	height:90px;
+	width:136px;
+  /*   border: 2px solid; */
+  }
+  .child{
+	 height:90px;
+	width:136px;
+  /*   border: 2px solid; */
+  }
+  .name{
+	height:40px;
+	width:134px;
+  /*   border: 2px solid; */
+	   display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .name1{
+	 height:40px;
+	width:134px;
+  /*   border: 2px solid; */
+	   display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  
+  
+  
+  
+  .adultcount{
+	 height:90px;
+	width:240px;
+  /*   border: 2px solid; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  .childcount{
+	 height:90px;
+	width:240px;
+  /*   border: 2px solid; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  .plus{
+	height:50px;
+	width:50px;
+	border: 2px solid;
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	 background-color: #2e6de1;
+	color:white;
+  }
+  .number{
+	height:50px;
+	width:50px;
+	border: 2px solid;
+	   display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .minus{
+	 height:50px;
+	width:50px;
+	border: 2px solid;
+	   display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2e6de1;
+	color:white;
+  }
+  .counter{
+	height:100px;
+	width:100px;
+	/* border:2px solid; */
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .done{
+	 height:100px;
+	width:200px;
+	/* border:2px solid; */
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	 background-color: #2e6de1;
+	color:white;
+	font-size: 25px;
+  }
+  
+  
+	
+#footer{
+	
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+#bottom-shrink{
+	height:400px;
+	width:65%;
+	/* border:2px solid; */
+}
+#bottom-inner{
+	height:150px;
+	width:100%;
+	/* border:2px solid; */
+}
+.flightInfo{
+	height:150px;
+	width:100%;
+	/* border:2px solid; */
+	display:flex;
+	
+}
+
+.rateInfo{
+	height:148px;
+	width:300px;
+	border:2px solid;
+	
+}
+.TimeInfo{
+	height:148px;
+	width:920px;
+	border:2px solid
+}
+.suitcase{
+	height:45px;
+	width:100%;
+	/* border:2px solid; */
+}
+.inr{
+	height:45px;
+	width:100%;
+	/* border:2px solid; */
+}
+.seeFlight{
+	height:35px;
+	width:98%;
+	border:2px solid;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	background-color: #2e6de1;
+	color:white;
+}
+.p{
+	margin-top:10px;
+}
+.TimeTop{
+	height:135px;
+	width:850px;
+	/* border:2px solid; */
+	display:flex;
+	justify-content: space-between;
+}
+.flightSymbol{
+	height:140px;
+	width:100px;
+	/* border:2px solid; */
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	font-size: 30px;
+}
+.FlightNameBox{
+	height:50px;
+	width:100px;
+	font-size: 20px;
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	
+}
+.FromTimeBox{
+	height:50px;
+	width:100px;
+	
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	
+}
+.ToTimeBox{
+	height:50px;
+	width:100px;
+	
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	
+}
+.FromTime{
+	height:140px;
+	width:100px;
+	/* border:2px solid; */
+	font-size: 20px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	}
+.bar{
+	height:100px;
+	width:54%;
+	/* border:2px solid; */
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}	
+.timediff{
+	height:25px;
+	width:100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+hr{
+	width:300px;
+}
+.ToTime{
+	height:140px;
+	width:100px;
+	/* border:2px solid; */
+	font-size: 20px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	}
+	
+	
+	
+	
+	
+	

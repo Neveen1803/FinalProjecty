@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flight Ticket Booking</title>
+<link href="AddFlight.css" rel="stylesheet" type="text/css" />
+<script src="AddFlight.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="whole-container">
+        <div id="top">
+        <div id="top-shrink">
+            <div id="head">FlightBooking</div>
+		<div id="logout" onclick="logout()">Log out</div>
+        </div>
+        </div>
+   
+    <div id="middle">
+		<div id="middle-shrink">
+            <div id="total">
+                <div class="Box">
+                    <label for="FlightId"> Flight Id </label>
+                    <input type="text" id="FlightId" class="FlightId" placeholder="Enter the FlightId"/>
+                </div>
+               <div class="Box">
+                    <label for="flightName"> FlightName: </label>
+ 		 <select id="flightName" class="flightname" required="required">
+                						<option value="Indigo">Indigo</option>
+                                        <option value="DeccanAir">DeccanAir</option>
+                                        <option value="AirIndia">AirIndia</option>
+                                        <option value="SpiceJet">SpiceJet</option>
+                                        <option value="GoAir">GoAir</option>
+                                      
+                </select>                </div>
+                    <div class="Box">
+                    <label for="departure">Departure: </label>
+                <select id="departure" class="departure" required="required">
+                						<option value="Chennai">Chennai</option>
+                                        <option value="Thoothukudi">Thoothukudi</option>
+                                        <option value="Madurai">Madurai</option>
+                                        <option value="Kayathar">Kayathar</option>
+                                        <option value="Coimbatore">Coimbatore</option>
+                                        <option value="Salem">Salem</option>
+                                        <option value="Vellore">Vellore</option>
+                                        <option value="Puducherry">Puducherry</option>
+                </select>
+            </div>
+            <div class="Box">
+                <label for="arrival">Arrival: </label>
+                <select id="arrival" class="arrival" required="required">
+                    <option value="Chennai">Chennai</option>
+                                            <option value="Thoothukudi">Thoothukudi</option>
+                                            <option value="Madurai">Madurai</option>
+                                            <option value="Kayathar">Kayathar</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Salem">Salem</option>
+                                            <option value="Vellore">Vellore</option>
+                                            <option value="Puducherry">Puducherry</option>
+                    </select>
+
+            </div>
+                <div class="Box">
+                    <label for="depTime"> Departure Time: </label>
+                    <input type="time" id="depTime" class="DepTime"/>
+                </div>
+                <div class="Box">
+                    <label for="arrTime"> Arrival Time: </label>
+                    <input type="time" id="arrTime" class="ArrTime"/>
+                </div>
+                <div class="Box">
+                    <label for="seats">Flight seat capacity: </label>
+                    <select id="seats" class="seats" required="required">
+                                                <option value="small">Small (72 seats)</option>
+                                                <option value="medium">Medium (174 seats)</option>
+                                                <option value="large">large (224 seats)</option>
+                                               
+                        </select>
+                </div>
+                <div class="Box">
+                    <label for="Price"> Price: </label>
+                    <input type="number" id="Price" class="Price" placeholder="Enter the Price per seat"/>
+                </div>
+                </div>
+
+                <div id="addSearch"> 
+                    <div id="AddFlight" onclick="AddFlight()"> Add Flight</div>
+                    </div>
+
+        </div>
+
+        <div id="mid-see"></div>
+        <div id="mid-book"></div>
+        <div id="mid-update">
+           <div class="UpdateBox">
+            <label for="FlightId"> Flight Id </label>
+            <input type="text" id="getFlightId" placeholder="Enter the flight Details"/>
+            
+            <label for="FlightId"> Flight Id </label>
+            <input type="button" value="submit" class="searchForFlight" onclick="submit()"/>
+           </div>
+           <div class="summa" id="UpdateFields">
+         	<div class="summa1" onclick="UpdateFlightInfo('Departure')" id="ChangeDepartureCity">Departure</div>
+          	<div class="summa1" onclick="UpdateFlightInfo('Arrival')" id="ChangeArrivalCity">Arrival</div>
+         	<div class="summa1" onclick="UpdateFlightInfo('DepartureTime')" id="ChangeDepartureTime">DepartureTime</div>
+          	<div class="summa1" onclick="UpdateFlightInfo('ArriveTime')" id="ChangeArrivalTime">ArrivalTime</div>
+          	<div class="summa1" onclick="UpdateFlightInfo('Price')" id="ChangePrice">Price</div>
+          	<div class="summa1" onclick="UpdateFlightInfo('FlightCapacity')" id="ChangeFlightCapacity">FlightCapacity</div>
+           </div>
+           <div class="ChangerArea"> 
+        		 <div class="Box" id="UpdateBox">
+        		
+        		
+        		 </div>
+        		 <div id="Update">Update</div>
+           </div>
+        </div>
+    </div>
+    <div id="marginLeft">
+        <div class="tobba" onclick="add()">Add flight</div>
+        <div class="tobba" onclick="see()">See Flights</div>
+        <div class="tobba" onclick="book()">Booked Details</div>
+        <div class="tobba" onclick="update()">UpdateFlight</div>
+    </div>
+</div>
+
+
+</body>
+</html>
